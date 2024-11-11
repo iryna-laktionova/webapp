@@ -11,7 +11,7 @@ func main() {
 
 	router.GET("/", func(ctx *gin.Context) {
 		ctx.JSON(http.StatusOK, gin.H{
-			"webapp": "hello world",
+			"WebApp": "hello world",
 		})
 	})
 
